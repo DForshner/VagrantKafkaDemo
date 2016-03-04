@@ -1,5 +1,5 @@
 # VagrantKafkaDemo
-Kafka demo uing Vagrant to provision the environment.  Currently shows producing and consuming 
+Kafka demo using Vagrant to provision the environment.  Currently shows producing and consuming 
 from the queue using bash scripts.
 
 ## Running
