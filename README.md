@@ -1,7 +1,8 @@
 # VagrantKafkaDemo
-Using Vagrant to provision and run a Kafka Demo
+Kafka demo suing Vagrant to provision the environment.  Currently shows producing and consuming 
+from the queue using bash scripts.
 
-## Running Demo
+## Running
 
 1) Provision environment
 
