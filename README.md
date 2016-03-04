@@ -10,5 +10,5 @@ vagrant up
 Should install everything and run test-kafka.bash script
 
 ## Requirements
-VirtualBox
-Vagrant
+* VirtualBox
+* Vagrant
