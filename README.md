@@ -13,7 +13,7 @@ vagrant up
 * VirtualBox
 * Vagrant
 
-# Network Debugging Tips
-* Can telnet to zookeeper (port 2181) and type "ruok" and it will respond "imok"
-* Can telnet to kafka (port 9092) and it will open a connection and close it when you press any key.
+# Random Tips
+* Telnet to zookeeper (port 2181) and type "ruok" and it will respond "imok"
+* Telnet to kafka (port 9092) and it will open a connection and close it when you press any key.
 * If you edit any script files in windows you may need to run dos2unix to remove windows line ends ('/r' junk).
