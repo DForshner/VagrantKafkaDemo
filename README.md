@@ -1,6 +1,5 @@
 # VagrantKafkaDemo
-Kafka demo using Vagrant to provision the environment.  Currently shows producing and consuming 
-from the queue using bash scripts.
+A kafka demo using Vagrant to provision the environment.  The idea is to launch a Kafka broker in a VM and then interact with it from the host using the kafka-net client library.
 
 ## Running
 
@@ -15,5 +14,5 @@ vagrant up
 * Vagrant
 
 # Network Debugging Tips
-* You can telnet to zookeeper (port 2181) and type "ruok" and it will respond "imok"
-* You can telnet to kafka (port 9092) and it will open a connection and close it when you press any key.
+* Can telnet to zookeeper (port 2181) and type "ruok" and it will respond "imok"
+* Can telnet to kafka (port 9092) and it will open a connection and close it when you press any key.
