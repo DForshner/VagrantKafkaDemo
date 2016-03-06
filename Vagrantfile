@@ -5,11 +5,12 @@ Vagrant.configure(2) do |config|
 
   # Configure box
   config.vm.box = "ubuntu/trusty64"
-  config.vm.hostname = "vagrant-kafka-demo"
 
-  # Create a forwarded port mapping which allows access to a specific port
-  # within the machine from a port on the host machine.
-  # config.vm.network "forwarded_port", guest: 80, host: 8080
+  # Forward kafka port
+  config.vm.network "forwarded_port", guest: 9092, host: 9092
+  
+  # Forward zookeeper port
+  config.vm.network "forwarded_port", guest: 2181, host: 2181
 
   # Provider-specific configuration
   config.vm.provider "virtualbox" do |vb|
