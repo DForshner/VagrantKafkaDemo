@@ -15,5 +15,5 @@ vagrant up
 * Vagrant
 
 # Network Debugging Tips
-* You can telnet to zookeeper (port 2181) and enter "ruok" and it will response "imok"
+* You can telnet to zookeeper (port 2181) and type "ruok" and it will repond "imok"
 * You can telnet to kafka (port 9092) and it will open a connection and close it when you press any key.
